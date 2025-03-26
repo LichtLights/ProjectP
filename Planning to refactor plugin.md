@@ -91,7 +91,7 @@ IFP Demo에서는 AC_Inventory에 설정된 WBP Class를 가져와 `CreateWidget
 	Layer를 사용하기 위해, 새로 그려주는 위젯들을 `CommonActivatableWidget` 으로 reparenting.
 	이 위젯들은 보다 상위 layer(`UI.Layer.Modal`)에서 BackHandler로 작동해야 함.
 	
-	![[Pasted image 20250313105948.png]]
+	[![[Pasted image 20250313105948.png]]](https://github.com/LichtLights/ProjectP/blob/eff3fc7f5f7e1e91002e756fadf85b6b741183ed/Pasted%20image%2020250313105948.png)
 	
 	`PushContentToLayerForPlayer` -> `Cast To <MyClass>` -> Custom Initialization function(or event) 순으로 대체.
 	
